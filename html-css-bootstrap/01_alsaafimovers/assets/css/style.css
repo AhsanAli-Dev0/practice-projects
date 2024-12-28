@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-left: 0px !important;
+}
+
+ .navbar{
+  font-family: saira semi condensed, sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  font-style: normal;
+}
+.navbar button{
+  font-family: saira semi condensed, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  transition: all 1s; 
+}
+/* #btn-container::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #6680a8;
+  position: absolute;
+  right: 150px;
+  top: 20px;
+  z-index:1;
+} */
+
+.carousel-control-prev, .carousel-control-next{
+  width: 89px;
+  color:#fa0404 !important;
+  
+}
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1 !important;
+}
+.fa-long-arrow-left:before{
+  background:rgb(255, 254, 254) !important;
+  opacity: 100% !important;
+  border-radius: 100%;
+  font-size: 35px !important;
+  padding: 10px;
+}
+.fa-long-arrow-left::before :hover {
+background: red;
+}
+.fa-long-arrow-right:before{
+  background:white !important;
+  border-radius: 100%;
+  font-size: 35px !important;
+  padding: 10px;
+}
+
+.carousel-caption{
+  left: 10%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  display: none;
+}
+
+.carousel-caption h2{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 700;
+  font-size: 3.9vw;
+  font-style: normal;
+}
+.carousel-caption p{
+  font-family: saira semi condensed, sans-serif;
+  font-weight: 400;
+  font-size: 1.9vw;
+  width: 60% !important;
+  font-style: normal;
+  width: 85%;  
+  line-height: 1.8 !important;
+
+}
+
+.carousel-caption button{
+  font-size: 1.7vw;
+  font-family: saira semi condensed, sans-serif;
+
+}
+#card {
+  padding: 0px !important;
+  
+}
+.card-item::before{
+  content: "";
+  width: 90px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #040c18;
+  border-bottom-left-radius: 100%;
+}
+.card-item{
+  font-family: saira semi condensed, sans-serif;
+  font-size: 2.5vh;
+}
+.card-item h5{
+  font-size: 3.9vh;
+  font-weight: 600;
+}
+#about{
+  font-family: saira semi condensed, sans-serif;
+  text-align: justify;
+}
+#about h3{
+  font-weight: 800;
+  font-size: 2.6em;
+}
+#about h5{
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+}
+#about p{
+  font-weight: 300;
+  font-size: 1.5em;
+  letter-spacing: 1.4;
+}
+#about ul {
+  list-style-type: none;
+}
+#about ul li{
+  list-style-type: none;
+  margin-top: 15px;
+}
+#about i{
+  font-size: 22px;
+}
+#about .contact-number span{
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1;
+}
+#about .contact-number b{
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1;
+}
+.services-heading h1{
+  font-family: saira semi condensed, sans-serif;
+  font-weight:700;
+  font-size: 3.2em;
+  text-wrap: nowrap;
+  font-style: normal;
+}
+#serivces-card .col-lg-4{
+padding:0px 0px !important;
+}
+#serivces-card .card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px black;
+}
+
+#serivces-card .services-img img{
+  width: 90%;
+  transition: width 2s;
+  position: relative;
+  top:-10px;
+  border-radius: 20px;
+
+}
+#serivces-card .services-img img:hover{
+width:calc(90% + 8%);
+}
+#serivces-card .service-icon img{
+  width: 120px;
+ background: rgba(237, 237, 237, 0.6);
+ 
+ position: relative; 
+ padding-top: 30px;
+ padding-bottom: 30px;
+ 
+ top: -50px; 
+}
+#our-services .card-body h5{
+  font-family: saira semi condensed, sans-serif;
+  font-weight:700;
+  font-size: 1.9em;
+  font-style: normal;
+}
+#our-services .card-body a{
+  font-family: saira semi condensed, sans-serif;
+  font-weight:500;
+  font-size: 1em;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.row input{
+  padding: 170px;
+}
+form .btn{
+  font-family: saira semi condensed, sans-serif;
+  font-weight:700;
+  font-size: 1.2em;
+  font-style: normal;
+  text-transform: uppercase;
+  box-shadow:   1px 1px 10px 1px red;
+
+}
+
+#why-choose-us {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  
+}
+#why-choose-us h1{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 700;
+  font-size: 49px;
+  font-style: normal;
+}
+
+#why-choose-us h5, h3{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 500;
+  font-size: 29px;
+  font-style: normal;
+}
+#why-choose-us p{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: normal;
+}
+#testimonial h1{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 800;
+  font-size: 39px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+#testimonial .img-area img{
+  width: 153px !important;
+  height: 153px !important;
+  border-radius: 100%;
+  border: dotted;
+  padding: 5px;
+}
+#testimonial .contant-area{
+  background: #fff;
+  border: 2px solid white;
+  box-shadow: 0px 0px 1px ;
+  border-radius: 20px;
+}
+#testimonial .contant-area .fa-star{
+  margin-bottom: 30px;
+}
+.owl-nav{
+  text-align: center;
+}
+.owl-nav .owl-next span{
+  font-size: 70px;
+  margin-left: 23px;
+  font-weight: 700;
+  color: red;
+}
+.owl-nav .owl-prev span{
+  font-size: 70px;
+  font-weight: 700;
+  color: red;
+}
+.owl-dots{
+  text-align: center;
+}
+.owl-dots  span{ 
+  border-radius: 100%;
+  margin-left: 9px; 
+  display: flex;
+  width: 8px !important;
+  height: 9px !important;
+  padding-left: 1px;
+  transition: width 1s;
+}
+ .owl-dots .owl-dot.active span{
+  background: red !important;
+  width: 23px !important;
+  height: 9px !important;
+  padding-left: 1px;
+}
+#red-banner{
+  background: #d53816;
+  box-sizing: content-box !important;
+}
+#red-banner h1{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 800;
+  font-size: 39px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: white;
+}
+#red-banner p{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: white;
+}
+#red-banner button{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: white;
+}
+.footer .row{
+  margin-top: 100px !important;
+  margin-top: 100px !important;
+}
+.footer-titles{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 700;
+  font-size: 23px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.footer-links{
+  list-style-type:none;
+  text-decoration: none;
+  color:#040c18  !important;
+  padding-left: 0px !important;
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 600;
+  font-size: 18px;
+  text-wrap: nowrap;
+  font-style: normal;
+  text-transform: capitalize;
+  text-align: justify;
+}
+.footer-links li{
+  margin-top: 10px;
+  text-decoration: none;
+}
+.footer-links li:hover{
+  padding-left: 7px;
+  transition: padding-left 1s;
+}
+.footer-links li a{
+  color: #000; 
+  text-decoration: none;
+}
+
+.copyright-section p{
+  font-family: saira semi condensed, sans-serif !important;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.copyright-section i{
+background: red;
+padding: 15px !important;
+}
+.copyright-section i:hover{
+  background: #170d0d;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+  .carousel-caption p{
+    font-size: 3.3vw;
+    width: 100% !important;
+  }
+ .controlers {
+    position: absolute;
+    left:80%;
+    top: 86%;
+  }
+  
+  
+  
+}

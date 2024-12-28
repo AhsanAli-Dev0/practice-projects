@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  box-sizing:border-box;
+}
+.navbar  {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  box-shadow: 0px 0px 6px  black;
+
+}
+
+.navbar-nav{
+  position: relative;
+}
+.navbar-nav a::before{
+  content: "";
+  background: white;
+  position: absolute;
+  width: 0px;
+   height: 3px;
+  top: 35px;
+  transition: width 1s;
+}
+.nav-link:hover::before{
+  width: 34px;
+}
+.carousel-indicators [data-bs-target]{
+  width: 6px !important;
+  height: 6px !important;
+  padding: 3px !important;
+}
+
+.carousel-item .row{
+  margin-top: 103px !important;
+  margin-bottom: 103px !important;
+}
+.carousel-caption{
+  position:unset !important;
+}
+.carousel-item button:hover{
+  color: black;
+}
+
+.carousel-caption ul {
+  padding-left: 19px !important;
+}
+#carousel h5{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  font-style: normal;
+}
+#carousel button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size:19px;
+  font-style: normal;
+}
+#carousel ul,p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}
+#solution .solution-heading{
+  border-right: 2px solid black;
+} 
+#solution p{
+  text-align: justify;
+}
+#solution .solution-card{
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#solution h5{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  font-style: normal;
+}
+.solution-card h5{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  font-size: 29px !important;
+  font-style: normal;
+}
+#services .services-title h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 800 !important;
+  font-size: 35px !important;
+  margin-top: 30px;
+  font-style: normal;
+}
+#services  h5{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  font-size: 35px !important;
+  margin-top: 30px;
+  font-style: normal;
+}
+.services-title{
+  position: relative;
+}
+.services-title h1 span::before{
+ content: "";
+ width: 44px;
+ height: 3px;
+ background: blue;
+ position: absolute;
+ top: 42px;
+}
+#services  ul {
+ list-style-type: none;
+ padding-left: 0% !important;
+}
+#services  button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  font-size: 20px;
+  color: white !important;
+  font-style: normal;
+  padding: 10px;
+}
+#mpos  h5{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  font-size: 35px !important;
+  margin-top: 30px;
+  font-style: normal;
+}
+.mpos-title{
+  position: relative;
+}
+ #mpos  h5::before{
+  content: "";
+    width: 54px;
+    height: 4px;
+    background: rgb(52, 16, 211);
+    position: absolute;
+    top: 39px;
+  
+    }
+
+ 
+#mpos  button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  font-style: normal;
+  padding: 10px;
+  color: white !important;
+}
+@media  screen and (max-width: 770px) {
+  #solution .solution-heading{
+    border: 0px solid ;
+  }
+  .carousel-item .row{
+    margin-top: 43px !important;
+  }
+  .nav-link:hover::before{
+    width: 0px;
+  }
+}
